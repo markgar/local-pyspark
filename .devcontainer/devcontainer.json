@@ -1,13 +1,6 @@
 {
   "name": "Fabric Runtime 1.3 (Local PySpark)",
   "image": "local-pyspark:latest",
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "11",
-      "installMaven": false,
-      "installGradle": false
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
